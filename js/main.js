@@ -7,6 +7,9 @@ $(function(){
 		$('.menu-z').addClass('active');
 	});
 
+	$('.header__footer-bottom').on('click',function(){
+		$('.menu-z').addClass('active');
+	});
 	$('.menu-z-close-btn').on('click',function(){
 		$('.menu-z').removeClass('active');
 	});
