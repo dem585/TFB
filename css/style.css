@@ -10,6 +10,17 @@ ul{
 	list-style: none;
 }
 
+.img-soc:hover{
+	transform: rotate(360deg);
+	transition: all 2s;
+}
+
+.img-soc-f:hover{
+	transform: rotate(360deg);
+	transition: all 2s;	
+}
+
+
 .wrap{
 	width: 100%;
 	max-width: 80%;
@@ -1108,6 +1119,7 @@ a:hover span:nth-child(4){
 	outline: transparent;
 	margin: 20px  0;
 }
+
 
 
 .bg-form{

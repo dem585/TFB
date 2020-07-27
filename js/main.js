@@ -13,6 +13,11 @@ $(function(){
 	$('.menu-z-close-btn').on('click',function(){
 		$('.menu-z').removeClass('active');
 	});
+
+	$('.header-menu').click(function(){
+		$('.header-mune-list').slideToggle(500);
+
+	});
 });
 
 
